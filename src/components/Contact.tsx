@@ -11,7 +11,7 @@ export const Contact = () => {
           <div className="space-y-4">
             <h2 className="text-4xl font-bold tracking-tight">Contacto</h2>
             <p className="text-xl text-muted">
-              ¿Tienes un problema de datos complejo? Construyamos una solución.
+              ¿Tienes un problema de datos que quieras resolver? Hablemos.
             </p>
           </div>
 

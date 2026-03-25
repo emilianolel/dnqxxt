@@ -12,13 +12,13 @@ export const experiences: Experience[] = [
     company: "AgileThought",
     role: "Data Engineer",
     period: "Mayo 2022 — Presente",
-    description: "Trabajo en proyectos de datos a gran escala enfocados en métricas, analítica y soporte a decisiones de negocio.",
+    description: "Proyectos de datos a escala para métricas y analítica de negocio.",
     achievements: [
-      "Optimización de procesos reduciendo tiempos de 2h a 45m.",
-      "Reducción de discrepancias en métricas del 15% a <1%.",
-      "Diseño de estructuras analíticas y tablas FACT.",
-      "Implementación de orquestación con Airflow (Astronomer).",
-      "Colaboración con Data Science para alimentar modelos analíticos.",
+      "Optimizé pipelines para que corrieran en menos de una hora.",
+      "Reduje el error en métricas de negocio de un 15% a casi cero.",
+      "Diseñé tablas FACT y modelos de datos pensados para ser usados.",
+      "Automaticé flujos con Airflow y Astronomer.",
+      "Colaboré con equipos de ciencia de datos para que tuvieran lo que necesitaban.",
     ],
     tech: ["GCP", "BigQuery", "PySpark", "Airflow", "Astronomer", "DBT"],
   },
@@ -27,17 +27,17 @@ export const experiences: Experience[] = [
 export const impactMetrics = [
   {
     value: "2h → 45m",
-    label: "Optimización de procesos",
-    description: "Reducción de tiempo mediante consultas optimizadas y ejecución paralela.",
+    label: "Optimización",
+    description: "De 2h a 45m de ejecución.",
   },
   {
     value: "<1%",
-    label: "Discrepancia de datos",
-    description: "De 15% a niveles mínimos mediante validación y lógica estricta.",
+    label: "Calidad",
+    description: "Menos del 1% de discrepancia en datos.",
   },
   {
     value: "100%",
     label: "Automatización",
-    description: "Pipelines orquestados con Airflow reduciendo tareas manuales.",
+    description: "Eliminé tareas manuales en pipelines críticos.",
   },
 ];

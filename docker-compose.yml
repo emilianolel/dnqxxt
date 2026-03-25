@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  # Local Development: Hot-reload, bind mounts, dev server
+  dev:
+    image: node:20-alpine
+    container_name: portfolio-dev
+    working_dir: /app
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+      - /app/.next
+    command: npm run dev
+    environment:
+      - NODE_ENV=development
+
+  # Production Test: Multi-stage build, optimized image
+  prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: portfolio-prod
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production

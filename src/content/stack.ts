@@ -1,22 +1,22 @@
 export const techStack = [
   {
-    category: "Cloud & Data Platform",
+    category: "Cloud & Plataformas",
     items: ["GCP", "BigQuery", "Cloud Storage", "Dataproc", "Compute Engine"],
   },
   {
-    category: "Processing",
+    category: "Procesamiento",
     items: ["PySpark", "SparkSQL", "SQL", "Python"],
   },
   {
-    category: "Orchestration",
+    category: "Orquestación",
     items: ["Apache Airflow", "Astronomer"],
   },
   {
-    category: "Infra & Tooling",
+    category: "Herramientas",
     items: ["Terraform", "Docker", "Git", "Linux"],
   },
   {
-    category: "Analytics & Modeling",
+    category: "Análisis",
     items: ["DBT", "Power BI", "Looker Studio"],
   },
 ];

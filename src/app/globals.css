@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "katex/dist/katex.min.css";
 
 :root {
   --background: #030303;
@@ -14,8 +15,8 @@
   --color-muted: var(--muted);
   --color-accent: var(--accent);
   --color-border: var(--border);
-  --font-sans: var(--font-inter);
-  --font-mono: var(--font-roboto-mono);
+  --font-mono: var(--font-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-sans: var(--font-mono);
 }
 
 * {
@@ -25,14 +26,17 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: var(--font-mono);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
 }
 
 h1, h2, h3, h4 {
   font-weight: 600;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
 }
 
 .text-balance {

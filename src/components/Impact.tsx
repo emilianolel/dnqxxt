@@ -9,10 +9,10 @@ export const Impact = () => {
         <div className="space-y-12">
           <div className="space-y-2">
             <h2 className="text-sm font-bold uppercase tracking-widest text-muted">
-              Impacto Profesional
+              Resultados
             </h2>
             <p className="text-2xl md:text-3xl font-medium max-w-2xl">
-              Resultados medibles y sistemas diseñados para la escala.
+              Lo que he construido y el impacto que ha tenido.
             </p>
           </div>
 
