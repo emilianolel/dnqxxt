@@ -59,6 +59,11 @@
     - [x] Include VM setup commands (Docker, NGINX)
     - [x] Include SSL automation with Certbot
     - [x] Define production hardening (UFW, restart)
+- [x] Vercel E2E Deployment Plan [x]
+    - [x] Draft `vercel_deployment_plan.md`
+    - [x] Include GitHub integration steps
+    - [x] Include Hostinger DNS mapping
+    - [x] Define production checks (SSL, Cache)
 - [x] Github Upload [x]
     - [x] Check git status & remotes
     - [x] Stage and commit all changes
