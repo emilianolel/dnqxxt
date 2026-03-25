@@ -1,0 +1,69 @@
+# Tasks
+
+- [x] Project Setup [x]
+    - [x] Initialize Next.js project in `/Users/dnqxxt/Github/dnqxxt`
+    - [x] Setup folder structure (`/app`, `/components`, `/content`, `/lib`, `/public`)
+    - [x] Configure Tailwind theme (minimalist, dark mode)
+- [x] Content Definition [x]
+    - [x] Create `site.ts` for general info
+    - [x] Create `projects.ts` for project data
+    - [x] Create `experience.ts` for work history
+    - [x] Create `impact.ts` for measurable results (merged into experience.ts)
+- [x] Component Implementation [x]
+    - [x] Base UI: `Container`, `Section`, `Card`, `ButtonLink`
+    - [x] Section Components: `Hero`, `About`, `Impact`, `Experience`, `Stack`, `Projects`, `Thinking`, `Interests`, `FutureProjects`, `Contact`
+    - [x] Project Components: `ProjectCard`, `ProjectArchitecture`
+- [x] Page Implementation [x]
+    - [x] Home page (`/`)
+    - [x] Projects list page (`/projects`)
+    - [x] Project detail pages (`/projects/[slug]`)
+    - [x] Writing/Thinking page (`/writing`)
+- [x] Navigation Fixes [x]
+    - [x] Verify Section IDs (`#experience`, `#contact`)
+    - [x] Update `Navbar.tsx` and `Hero.tsx` with correct hash links
+    - [x] Ensure smooth scrolling and cross-route navigation
+- [x] Side Projects Section [x]
+    - [x] Update `Project` model in `projects.ts` to include `status`
+    - [x] Research active projects in `~/Github`
+    - [x] Implement `SideProjects.tsx` component
+    - [x] Integrate `SideProjects` into `page.tsx`
+- [x] New Sections [x]
+    - [x] Install `katex` and `@types/katex`
+    - [x] Implement `Interests.tsx` with Einstein Field Equations
+    - [x] Implement `Partial.tsx` with centered ∂ symbol
+    - [x] Integrate both into `page.tsx`
+    - [x] Add links to Navbar (`#interests`, `#partial`)
+- [x] Human Voice Rewrite [x]
+    - [x] Analyze current tone vs target "human" voice
+    - [x] Draft new content for all sections (approved)
+    - [x] Apply "human" text to `src/content/`
+    - [x] Apply "human" text to `src/components/`
+- [x] End-to-End Validation [x]
+    - [x] Task 1: Development Environment Test (Success)
+    - [x] Task 2: Production Build Test (Success)
+    - [x] Task 3: Docker Production Test (Success)
+    - [x] Full app functionality verified in Docker
+- [x] Typography Refactor [x]
+    - [x] Select IBM Plex Mono as core typeface
+    - [x] Implement font loading in `layout.tsx`
+    - [x] Redesign typographic hierarchy in `globals.css`
+    - [x] Audit all components for spacing/alignment issues
+    - [x] Verify KaTeX math rendering remains intact
+- [x] Deployment Planning [x]
+    - [x] Draft comprehensive `deployment_plan.md`
+    - [x] Create GitHub Actions CI/CD workflow
+    - [x] Provide NGINX reverse proxy configuration
+    - [x] Finalize production checklist
+- [x] GCP VM Deployment Guide [x]
+    - [x] Draft `gcp_vm_deployment_guide.md`
+    - [x] Include VM setup commands (Docker, NGINX)
+    - [x] Include SSL automation with Certbot
+    - [x] Define production hardening (UFW, restart)
+- [x] Github Upload [x]
+    - [x] Check git status & remotes
+    - [x] Stage and commit all changes
+    - [x] Create GitHub repository (public: emilianolel/dnqxxt)
+    - [x] Push to main
+- [x] Verification & Polish [x]
+    - [x] Final build test
+    - [x] Verify accessibility with browser tool
