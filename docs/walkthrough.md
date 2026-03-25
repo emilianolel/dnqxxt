@@ -12,6 +12,7 @@ This walkthrough documents the final state of Emiliano Herrera's portfolio websi
 - **Docker Containerization**: Created a professional, multi-stage Docker setup with `standalone` output and non-root execution.
 - **Navigation Integration**: Updated the navigation bar to include direct links to the new sections and fixed cross-route hash navigation.
 - **E2E Validation**: Performed a complete test cycle across Dev, Build, and Docker environments with 100% success rate.
+- **Deployment Ecosystem**: Prepared full plans for Vercel (E2E), GCP VM (Docker), and Hostinger (DNS).
 
 ## Media Verification
 
@@ -40,6 +41,8 @@ This walkthrough documents the final state of Emiliano Herrera's portfolio websi
 - **Result**: Image size optimized (~100MB). App accessible and stable at `http://localhost:8081`.
 
 ## Documentation & Assets
-- **Security Audit**: [security_audit_report.md](file:///Users/dnqxxt/.gemini/antigravity/brain/37731be7-fdf1-43a7-8847-95db87f557ac/security_audit_report.md)
-- **Docker Plan**: [docker_implementation_plan.md](file:///Users/dnqxxt/.gemini/antigravity/brain/37731be7-fdf1-43a7-8847-95db87f557ac/docker_implementation_plan.md)
+- **Security Audit**: [security_audit_report.md](file:///Users/dnqxxt/Github/dnqxxt/docs/security_audit_report.md)
+- **Vercel Plan**: [vercel_deployment_plan.md](file:///Users/dnqxxt/Github/dnqxxt/docs/vercel_deployment_plan.md)
+- **GCP Guide**: [gcp_vm_deployment_guide.md](file:///Users/dnqxxt/Github/dnqxxt/docs/gcp_vm_deployment_guide.md)
+- **Hostinger Guide**: [hostinger_deployment_guide.md](file:///Users/dnqxxt/Github/dnqxxt/docs/hostinger_deployment_guide.md)
 - **Technical SEO**: `robots.txt` and `sitemap.xml` generated in `public/`.
