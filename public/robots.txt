@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dnqxxt.com/sitemap.xml
+Sitemap: https://dnqxxt.xyz/sitemap.xml

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Emiliano Herrera | Data Engineer & Physicist",
     description: "Portafolio personal de Emiliano Herrera. Ingeniería de datos, física y diseño de sistemas.",
-    url: "https://dnqxxt.com", // Adjust if actual domain is known
+    url: "https://dnqxxt.xyz", // Adjust if actual domain is known
     siteName: "Emiliano Herrera Portfolio",
     locale: "es_MX",
     type: "website",
