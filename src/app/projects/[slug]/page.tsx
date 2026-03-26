@@ -22,8 +22,8 @@ export default async function ProjectPage({
         <Container>
           <div className="space-y-16">
             <div className="space-y-8">
-              <ButtonLink href="/projects" variant="outline" className="px-4 py-1.5 text-xs">
-                ← Volver a proyectos
+              <ButtonLink href="/#projects" variant="outline" className="px-4 py-1.5 text-xs">
+                ← Volver
               </ButtonLink>
               
               <div className="space-y-4">
