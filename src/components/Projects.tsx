@@ -51,14 +51,9 @@ export const Projects = ({ projects }: { projects: Project[] }) => {
     <Section id="projects">
       <Container>
         <div className="space-y-12">
-          <div className="flex justify-between items-end">
-            <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tight">Proyectos</h2>
-              <p className="text-muted">Artefactos técnicos y arquitectura de sistemas.</p>
-            </div>
-            <ButtonLink href="/projects" variant="secondary" className="px-4 py-1.5">
-              Ver todos
-            </ButtonLink>
+          <div className="flex flex-col space-y-2">
+            <h2 className="text-3xl font-bold tracking-tight">Proyectos</h2>
+            <p className="text-muted">Artefactos técnicos y arquitectura de sistemas.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

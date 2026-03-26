@@ -12,7 +12,7 @@ export const Navbar = () => {
         </Link>
         
         <div className="flex flex-wrap justify-center md:justify-end gap-x-4 gap-y-2 md:gap-8 text-xs md:text-sm font-medium">
-          <Link href="/projects" className="text-muted hover:text-foreground transition-colors">
+          <Link href="/#projects" className="text-muted hover:text-foreground transition-colors">
             Proyectos
           </Link>
           <Link href="/#experience" className="text-muted hover:text-foreground transition-colors">
@@ -24,7 +24,7 @@ export const Navbar = () => {
           <Link href="/#partial" className="text-muted hover:text-foreground transition-colors">
             Partial
           </Link>
-          <Link href="/writing" className="text-muted hover:text-foreground transition-colors">
+          <Link href="/#thinking" className="text-muted hover:text-foreground transition-colors">
             Pensamiento
           </Link>
           <Link href="/#contact" className="text-muted hover:text-foreground transition-colors">

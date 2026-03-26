@@ -7,7 +7,7 @@ export const siteConfig = {
   github: "https://github.com/emilianolel",
   linkedin: "https://www.linkedin.com/in/emilianolel/",
   cta: {
-    primary: { label: "Ver proyectos", href: "/projects" },
+    primary: { label: "Ver proyectos", href: "/#projects" },
     secondary: { label: "Ver experiencia", href: "/#experience" },
   },
 };

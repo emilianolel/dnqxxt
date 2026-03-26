@@ -24,10 +24,10 @@ export default function Home() {
       <SideProjects projects={projects} />
       <Projects projects={completedProjects} />
       <Experience />
-      <Stack />
-      <Thinking />
       <Interests />
       <Partial />
+      <Stack />
+      <Thinking />
       <FutureProjects />
       <Contact />
     </main>
