@@ -9,33 +9,36 @@ export const Partial = () => {
           <div className="space-y-4 max-w-xl">
             <h2 className="text-3xl font-bold tracking-tight">Partial</h2>
             <p className="text-xl text-muted font-medium italic">
-              "Frontera, estructura y cambio."
+              "Reducción intencional de la forma."
             </p>
           </div>
 
           <div className="space-y-8 max-w-2xl text-foreground/80 leading-relaxed text-lg">
             <p>
-              <strong className="text-foreground">Partial</strong> es una exploración conceptual en forma de marca de ropa minimalista. Inspirada en el símbolo matemático <span className="font-serif italic text-accent opacity-80">∂</span> (derivada parcial), la marca representa la idea de analizar un sistema a través de sus cambios en dimensiones específicas.
+              <strong className="text-foreground">Partial</strong> no es solo una marca; es una exploración de cómo la abstracción matemática se traduce en estética. El símbolo <span className="font-serif italic text-accent opacity-80 text-2xl">∂</span> representa la derivada parcial: la manera en que entendemos un sistema complejo analizando cómo cambia en una sola dimensión a la vez.
+            </p>
+            <p>
+              Esa misma lógica —la de aislar lo esencial y eliminar lo accesorio— es la que aplico al construir software o diseñar una prenda. El minimalismo aquí no es ausencia, es precisión.
             </p>
           </div>
 
           {/* Visual Anchor: Large ∂ Symbol */}
-          <div className="py-12 flex items-center justify-center select-none pointer-events-none">
-            <span className="text-[16rem] md:text-[24rem] leading-none font-serif font-light text-foreground text-center">
+          <div className="py-8 flex items-center justify-center select-none pointer-events-none">
+            <span className="text-[14rem] md:text-[20rem] leading-none font-serif font-light text-foreground text-center opacity-90">
               ∂
             </span>
           </div>
 
           <div className="space-y-12 max-w-2xl">
             <p className="text-foreground/80 leading-relaxed text-lg italic">
-              Aesthetics through formal structure. Una propuesta visual sobria donde el diseño no es decorativo, sino una extensión de la lógica interna de la prenda.
+              Forma a través de la estructura formal. Una propuesta donde el diseño es la consecuencia de la lógica interna, no una decoración externa.
             </p>
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
               {[
                 { label: "Mínimo", value: "0" },
                 { label: "Frontera", value: "∂Ω" },
-                { label: "Cambio", value: "Δ" },
+                { label: "Cambio", value: "δ" },
                 { label: "Estructura", value: "Σ" },
               ].map((p) => (
                 <div key={p.label} className="space-y-1">
