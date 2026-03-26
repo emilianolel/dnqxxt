@@ -1,18 +1,18 @@
 export const thinkingTopics = [
   {
-    title: "Por qué (y cuándo) dejar de usar Apache Spark",
-    summary: "Si tu problema cabe en memoria, deja de complicarte la vida. Un análisis sobre el costo real de la computación distribuida.",
+    title: "La derrota voluntaria de Apache Spark",
+    summary: "Si el problema cabe en la memoria de un solo hombre, no busques el caos de lo distribuido. Una nota sobre la escala y el error.",
   },
   {
-    title: "La anatomía de una tabla FACT que el negocio sí use",
-    summary: "El diseño de modelos de datos no es sobre normalización, es sobre cómo el humano al otro lado de la pantalla toma decisiones.",
+    title: "Escribir tablas FACT para alguien que no existe",
+    summary: "El diseño de datos no es geometría; es una conversación con un usuario ausente. Modelar es, casi siempre, imaginar un orden.",
   },
   {
-    title: "Observabilidad: El 'éxito' de un DAG es mentira",
-    summary: "Que el proceso termine en verde no significa que los datos sean correctos. Por qué necesitamos validación semántica en cada paso.",
+    title: "El silencio de un DAG en verde",
+    summary: "Que el proceso termine no significa que la verdad esté a salvo. La observabilidad es la única forma de no caminar a ciegas.",
   },
   {
-    title: "Física y Modelado: Reduciendo la entropía técnica",
-    summary: "Cómo los principios de la termodinámica y el equilibrio de sistemas dictan la longevidad de una arquitectura de datos.",
+    title: "Física y entropía en el código",
+    summary: "Los sistemas de datos, como las estrellas, tienden al desorden. Solo la estructura nos salva de la desaparición técnica.",
   },
 ];

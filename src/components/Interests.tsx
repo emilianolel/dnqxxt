@@ -14,14 +14,14 @@ export const Interests = () => {
       <Container>
         <div className="space-y-12">
           <div className="space-y-6 max-w-2xl">
-            <h2 className="text-3xl font-bold tracking-tight">Curiosidad & Estructura</h2>
+            <h2 className="text-3xl font-bold tracking-tight">Geometría & Observación</h2>
             
             <div className="space-y-4 text-foreground/80 leading-relaxed text-lg">
               <p>
-                Para mí, la matemática no es una herramienta de cálculo, es el lenguaje de la estructura subyacente de la realidad. Aprendí que los sistemas complejos pueden describirse con reglas simples si se encuentra el nivel de abstracción correcto.
+                La matemática no es un cálculo, es un mapa de lo que no podemos ver a simple vista. Aprendí que los sistemas complejos —un flujo de datos, el movimiento de una galaxia— se rigen por reglas de una simplicidad casi aterradora si se encuentra la abstracción correcta.
               </p>
               <p>
-                Esa misma fascinación me lleva a otros lenguajes: la música, donde la armonía es matemática pura; el diseño, donde la forma sigue a la función; y la fotografía, que es el estudio de la luz y la composición. Mis intereses no son piezas sueltas; son diferentes formas de hablar de lo mismo: <strong className="text-foreground">forma, equilibrio y estructura</strong>.
+                Esa misma estructura me lleva a otros sitios: la música, donde el sonido es geometría pura; el diseño, donde la forma intenta no estorbar; y la fotografía, que es atrapar la luz antes de que se pierda. No son intereses aislados; son diferentes lenguajes para hablar de la misma obsesión: <strong className="text-foreground">el equilibrio y la forma</strong>.
               </p>
             </div>
           </div>
@@ -31,17 +31,17 @@ export const Interests = () => {
               className="text-lg md:text-3xl text-foreground/90 overflow-x-auto max-w-full px-4"
               dangerouslySetInnerHTML={{ __html: renderedEquation }} 
             />
-            <p className="text-[10px] uppercase tracking-[0.3em] text-muted/60 font-medium">
-              Ecuaciones de campo de Einstein: La geometría del mundo
+            <p className="text-[10px] uppercase tracking-[0.3em] text-muted/60 font-medium text-center">
+              Ecuaciones de campo de Einstein: El orden secreto del mundo
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-sm text-foreground/60 leading-relaxed max-w-4xl">
             <p>
-              Me interesan los problemas donde la lógica abstracta se encuentra con la ejecución técnica. No busco lo impresionante por ser complejo, busco lo que tiene sentido por ser esencial.
+              Me interesan los problemas donde la lógica más pura choca con la ejecución técnica. No busco lo complejo, busco lo esencial. Lo que queda después de limpiar el ruido.
             </p>
             <p>
-              Mi práctica profesional y personal consiste en reducir la entropía: transformar el ruido en señales claras, ya sea en un sistema de datos distribuido o en una composición visual.
+              Tanto en un pipeline como en una imagen, mi trabajo es reducir la entropía. Transformar el caos en una señal que alguien, en algún lugar, pueda entender.
             </p>
           </div>
         </div>

@@ -7,12 +7,12 @@ export const Impact = () => {
     <Section id="impact" className="bg-foreground/[0.02] border-y border-border">
       <Container>
         <div className="space-y-12">
-          <div className="space-y-2">
+          <div className="space-y-4">
             <h2 className="text-sm font-bold uppercase tracking-widest text-muted">
-              Resultados
+              Hechos
             </h2>
-            <p className="text-2xl md:text-3xl font-medium max-w-2xl">
-              Lo que he construido y el impacto que ha tenido.
+            <p className="text-2xl md:text-3xl font-medium max-w-2xl leading-tight">
+              Lo que ha quedado después de la ejecución. Un rastro de eficacia.
             </p>
           </div>
 

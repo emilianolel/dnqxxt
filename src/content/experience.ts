@@ -12,13 +12,13 @@ export const experiences: Experience[] = [
     company: "AgileThought",
     role: "Data Engineer",
     period: "Mayo 2022 — Presente",
-    description: "Proyectos de datos a escala para métricas y analítica de negocio.",
+    description: "Diseño de flujos de información a gran escala. Intervenir en el caos de la analítica de negocio.",
     achievements: [
-      "Optimizé pipelines para que corrieran en menos de una hora.",
-      "Reduje el error en métricas de negocio de un 15% a casi cero.",
-      "Diseñé tablas FACT y modelos de datos pensados para ser usados.",
-      "Automaticé flujos con Airflow y Astronomer.",
-      "Colaboré con equipos de ciencia de datos para que tuvieran lo que necesitaban.",
+      "Optimización de tuberías de datos; de la lentitud a la ejecución en menos de una hora.",
+      "Reducción Drástica de errores en métricas fundamentales. Una cuestión de verdad.",
+      "Diseño de modelos de datos enfocados en el uso real, no solo en la teoría.",
+      "Automatización de procesos mediante Airflow. Menos intervención humana, más precisión.",
+      "Trabajo con equipos de ciencia de datos para asegurar el flujo constante de lo necesario.",
     ],
     tech: ["GCP", "BigQuery", "PySpark", "Airflow", "Astronomer", "DBT"],
   },
@@ -27,17 +27,17 @@ export const experiences: Experience[] = [
 export const impactMetrics = [
   {
     value: "2h → 45m",
-    label: "Optimización",
-    description: "De 2h a 45m de ejecución.",
+    label: "Ejecución",
+    description: "Una reducción de tiempo, un aumento de la claridad.",
   },
   {
     value: "<1%",
-    label: "Calidad",
-    description: "Menos del 1% de discrepancia en datos.",
+    label: "Precisión",
+    description: "Casi nada de ruido en los datos finales.",
   },
   {
     value: "100%",
-    label: "Automatización",
-    description: "Eliminé tareas manuales en pipelines críticos.",
+    label: "Fluidez",
+    description: "Sistemas autónomos, sin rastro manual.",
   },
 ];

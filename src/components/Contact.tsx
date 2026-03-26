@@ -10,8 +10,8 @@ export const Contact = () => {
         <div className="max-w-2xl mx-auto text-center space-y-8">
           <div className="space-y-4">
             <h2 className="text-4xl font-bold tracking-tight">Contacto</h2>
-            <p className="text-xl text-muted">
-              ¿Tienes un problema de datos que quieras resolver? Hablemos.
+            <p className="text-xl text-muted leading-relaxed">
+              Si tienes un problema que requiere estructura, o si simplemente quieres hablar de sistemas, escríbeme.
             </p>
           </div>
 
@@ -28,7 +28,7 @@ export const Contact = () => {
           </div>
 
           <p className="text-sm text-muted/60 pt-12">
-            © {new Date().getFullYear()} {siteConfig.name}. Construido con precisión técnica.
+            © {new Date().getFullYear()} {siteConfig.name}. Construido con precisión y cierta melancolía técnica.
           </p>
         </div>
       </Container>
