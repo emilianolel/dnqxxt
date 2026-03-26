@@ -9,9 +9,16 @@ interface ProjectCardProps {
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <Card className="flex flex-col h-full space-y-4">
+    <Card className="flex flex-col h-full space-y-4 group">
       <div className="space-y-2">
-        <h3 className="text-xl font-bold">{project.name}</h3>
+        <div className="flex justify-between items-start">
+          <h3 className="text-xl font-bold group-hover:text-foreground transition-colors">{project.name}</h3>
+          {project.status === "active" && (
+            <span className="px-2 py-0.5 rounded-full bg-accent/10 text-accent text-[9px] font-bold uppercase tracking-wider whitespace-nowrap">
+              En Desarrollo
+            </span>
+          )}
+        </div>
         <p className="text-sm text-muted line-clamp-2">{project.summary}</p>
       </div>
 
@@ -47,20 +54,47 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
 };
 
 export const Projects = ({ projects }: { projects: Project[] }) => {
+  const completedProjects = projects.filter(p => p.status === "completed");
+  const activeProjects = projects.filter(p => p.status === "active");
+
   return (
     <Section id="projects">
       <Container>
-        <div className="space-y-12">
+        <div className="space-y-16">
           <div className="flex flex-col space-y-2">
             <h2 className="text-3xl font-bold tracking-tight">Proyectos</h2>
-            <p className="text-muted">Artefactos técnicos y arquitectura de sistemas.</p>
+            <p className="text-muted">Artefactos técnicos, arquitectura de sistemas y desarrollos en curso.</p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projects.map((project) => (
-              <ProjectCard key={project.slug} project={project} />
-            ))}
-          </div>
+          {/* Subsección 1: Seleccionados */}
+          {completedProjects.length > 0 && (
+            <div className="space-y-8">
+              <div className="flex items-center gap-4">
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent/80">Seleccionados</span>
+                <div className="h-px bg-border flex-grow mt-0.5 opacity-50" />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {completedProjects.map((project) => (
+                  <ProjectCard key={project.slug} project={project} />
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Subsección 2: En Desarrollo */}
+          {activeProjects.length > 0 && (
+            <div className="space-y-8">
+              <div className="flex items-center gap-4">
+                <span className="text-[10px] font-bold uppercase tracking-[0.2em] text-accent/80">En Desarrollo</span>
+                <div className="h-px bg-border flex-grow mt-0.5 opacity-50" />
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                {activeProjects.map((project) => (
+                  <ProjectCard key={project.slug} project={project} />
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </Container>
     </Section>
