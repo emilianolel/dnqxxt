@@ -73,13 +73,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={`scroll-smooth h-full ${mono.variable}`}>
+    <html lang="es" className={`scroll-smooth ${mono.variable}`}>
       <head>
         <StructuredData />
       </head>
-      <body className="min-h-full antialiased selection:bg-accent selection:text-white bg-background text-foreground font-mono animate-system-boot">
+      <body className="min-h-screen antialiased selection:bg-accent selection:text-white bg-background text-foreground font-mono">
         <Navbar />
-        {children}
+        <div className="animate-system-boot">
+          {children}
+        </div>
         <SpatialMetadata />
       </body>
     </html>

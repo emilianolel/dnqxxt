@@ -109,7 +109,7 @@ a, button, input, [role="button"] {
   }
   100% {
     opacity: 1;
-    filter: invert(0) brightness(1);
+    filter: none;
   }
 }
 
