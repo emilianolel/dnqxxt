@@ -10,9 +10,10 @@ export const Hero = () => {
         <div className="space-y-8 max-w-3xl">
           <div className="space-y-4">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-balance">
+              <span className="text-accent opacity-80 mr-4">~/$</span>
               {siteConfig.name}
             </h1>
-            <p className="text-2xl md:text-3xl text-muted font-medium text-balance leading-tight">
+            <p className="text-2xl md:text-3xl text-muted font-medium text-balance leading-tight terminal-cursor">
               {siteConfig.title}
             </p>
           </div>

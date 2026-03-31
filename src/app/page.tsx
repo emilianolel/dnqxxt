@@ -1,16 +1,17 @@
-import React from "react";
+import dynamic from "next/dynamic";
 import { Hero } from "@/components/Hero";
 import { About } from "@/components/About";
 import { Impact } from "@/components/Impact";
-import { Experience } from "@/components/Experience";
-import { Stack } from "@/components/Stack";
-import { Projects } from "@/components/Projects";
-import { Thinking } from "@/components/Thinking";
-import { Interests } from "@/components/Interests";
-import { Partial } from "@/components/Partial";
-import { Contact } from "@/components/Contact";
-import { FutureProjects } from "@/components/FutureProjects";
 import { projects } from "@/content/projects";
+
+const Experience = dynamic(() => import("@/components/Experience").then(m => m.Experience));
+const Stack = dynamic(() => import("@/components/Stack").then(m => m.Stack));
+const Projects = dynamic(() => import("@/components/Projects").then(m => m.Projects));
+const Thinking = dynamic(() => import("@/components/Thinking").then(m => m.Thinking));
+const Interests = dynamic(() => import("@/components/Interests").then(m => m.Interests));
+const Partial = dynamic(() => import("@/components/Partial").then(m => m.Partial));
+const Contact = dynamic(() => import("@/components/Contact").then(m => m.Contact));
+const FutureProjects = dynamic(() => import("@/components/FutureProjects").then(m => m.FutureProjects));
 
 export default function Home() {
   return (

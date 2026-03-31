@@ -37,7 +37,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
       <div className="pt-4 border-t border-border flex justify-between items-center">
         <div className="flex flex-wrap gap-1">
           {project.stack.slice(0, 3).map((s) => (
-            <span key={s} className="px-1.5 py-0.5 rounded bg-foreground/[0.05] text-[10px] font-mono whitespace-nowrap">
+            <span key={s} className="px-1.5 py-0.5 rounded-none bg-accent/15 text-accent border border-accent/30 text-[10px] uppercase font-bold tracking-widest whitespace-nowrap">
               {s}
             </span>
           ))}
